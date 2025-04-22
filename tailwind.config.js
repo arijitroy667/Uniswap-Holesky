@@ -5,22 +5,23 @@ export default {
     extend: {
       colors: {
         uniswap: {
-          pink: '#FC72FF',
-          purple: '#9B51E0',
+          pink: '#FF45D8',
+          purple: '#B15DFF',
           'light-purple': '#E8ECFB',
-          blue: '#2172E5',
-          'dark-blue': '#0E0E23',
-          black: '#0D111C',
-          gray: '#293249',
-          'light-gray': '#CED0D9',
+          blue: '#4C82FB',
+          'dark-blue': '#0A0B1E',
+          black: '#06071B',
+          gray: '#2D3355',
+          'light-gray': '#E8ECFB',
           white: '#FFFFFF',
         },
-        success: '#27AE60',
-        warning: '#F2994A',
-        error: '#EB5757',
+        success: '#2EE56D',
+        warning: '#FFB23F',
+        error: '#FF5D5D',
       },
       fontFamily: {
         sans: [
+          'Inter',
           'ui-sans-serif',
           'system-ui',
           '-apple-system',
@@ -33,15 +34,15 @@ export default {
         ],
       },
       boxShadow: {
-        card: '0px 8px 32px rgba(0, 0, 0, 0.08)',
-        glow: '0 0 20px rgba(252, 114, 255, 0.5)',
-        'inner-glow': 'inset 0 0 10px rgba(252, 114, 255, 0.2)',
+        card: '0 8px 32px rgba(0, 0, 0, 0.32)',
+        glow: '0 0 20px rgba(255, 69, 216, 0.35)',
+        'inner-glow': 'inset 0 0 10px rgba(255, 69, 216, 0.2)',
       },
       backgroundColor: {
-        'glass': 'rgba(255, 255, 255, 0.1)',
+        'glass': 'rgba(255, 255, 255, 0.03)',
       },
       backdropFilter: {
-        'blur-card': 'blur(16px)',
+        'blur-card': 'blur(12px)',
       },
       animation: {
         'gradient': 'gradient 5s ease infinite',
