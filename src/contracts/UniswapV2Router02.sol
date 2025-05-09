@@ -17,7 +17,7 @@ contract USDCETHRouter {
     address public USDC;
     address public receiverContract;
     address public owner;
-    
+
     // Events
     event SwappedUSDCForETH(
         address indexed user,
@@ -53,6 +53,7 @@ contract USDCETHRouter {
         factory = _factory;
         WETH = _WETH;
         USDC = _USDC;
+        owner = msg.sender;
         receiverContract = _receiverContract;
     }
 
